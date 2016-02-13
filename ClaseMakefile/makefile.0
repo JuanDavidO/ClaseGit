@@ -1,0 +1,6 @@
+#los comandos de abajo debe estar despues de un tab
+#make -f makefile.0  para indicarle que este pendiente de esos archivos
+objetivo.txt : requisito.txt
+	echo "requisito.txt es mas nuevo que objetivo.txt"
+	ls -l
+	touch objetivo.txt
